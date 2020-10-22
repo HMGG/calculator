@@ -1,0 +1,41 @@
+body{
+    background-color: #222;
+}
+
+#calculator{
+    background: #000;
+    width: fit-content;
+    margin: auto;
+}
+
+.line {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: end;
+    height: 1em;
+    width: 12em;
+    background-color: #eee;
+}
+
+#term2 {
+    border-bottom: 1px solid black;
+}
+
+.row{
+    width: fit-content;
+    display: flex;
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0em;
+}
+
+#eval {
+    width: 6em
+}
